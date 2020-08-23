@@ -1,7 +1,7 @@
 
 # react-native-photo-gallery
 
-![Demo image](https://s3-eu-west-1.amazonaws.com/michaelvilleneuve/uploads/demo.gif)
+Forked from https://github.com/FidMe/react-native-photo-gallery
 
 This library is a very simple, yet powerfull gallery component.
 It provides a native similar gallery including horizontal swiper, photo view, zoom, and pagination.
@@ -9,7 +9,7 @@ Tested without stutters with 1000+ images.
 
 ## Getting started
 
-`$ npm install react-native-photo-gallery --save`
+`$ npm install rnpg --save`
 
 This library depends on react-native-photo-view to display images on Android. So you must also do the following :
 
@@ -17,7 +17,7 @@ This library depends on react-native-photo-view to display images on Android. So
 
 ## Usage
 ```javascript
-import Gallery from 'react-native-photo-gallery';
+import Gallery from 'rnpg';
 
 class YourGalleryComponent extends Component {
   render() {

@@ -30,8 +30,8 @@ export default class Gallery extends Component {
     }
   };
 
-  getItemLayout = (data, index) => {
-    const { width } = this.state;
+  getItemLayout = (_data, index) => {
+    const width = Dimensions.get("window").width;
     return {
       length: width,
       offset: width * index,

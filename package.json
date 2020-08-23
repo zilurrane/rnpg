@@ -1,11 +1,8 @@
 {
-  "name": "react-native-photo-gallery",
-  "version": "0.2.4",
-  "description": "A simple gallery component",
+  "name": "rnpg",
+  "version": "0.0.1",
+  "description": "React Native Photo Gallery",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "react-native",
     "gallery",
@@ -17,9 +14,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fidme/react-native-photo-gallery"
+    "url": "https://github.com/zilurrane/rnpg.git"
   },
-  "author": "Michaël Villeneuve",
+  "author": "Zilu Rane",
   "license": "MIT",
   "dependencies": {
     "prop-types": "^15.5.10",
