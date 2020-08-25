@@ -20,8 +20,8 @@ const SwiperThumb = ({ navigate, index, data, active }) => {
 SwiperThumb.propTypes = {
   navigate: PropTypes.func,
   index: PropTypes.number,
-  active: PropTypes.boolean,
-  data: PropTypes.object
+  active: PropTypes.bool,
+  data: PropTypes.array
 };
 
 const styles = StyleSheet.create({
